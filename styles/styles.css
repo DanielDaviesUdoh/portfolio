@@ -469,7 +469,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--color-grey-1);
-  color: var(--color-secondary);
+  color: var(--color-black);
   padding: 0.2rem 1rem;
   border-radius: 4px;
   white-space: nowrap;
@@ -570,7 +570,7 @@ section {
   align-items: center;
   justify-content: center;
   margin-left: 1rem;
-  text-align: right;
+  text-align: center;
 }
 .contact-content-con .left-contact .contact-icon {
   display: flex;
