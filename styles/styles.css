@@ -723,14 +723,18 @@ section {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
+  .left-header {
+    margin-left: 1.2rem;
+  }
   .left-header .h-shape {
-    display: none;
+    width: 65%;
+    height: 90%;
   }
   .right-header {
     grid-row: 1;
     padding-right: 0rem !important;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
   }
   .right-header .name {
     font-size: 2.2rem !important;
@@ -739,7 +743,7 @@ section {
   }
   .header-content .left-header .image {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
   }
   .controls {
     top: auto;
